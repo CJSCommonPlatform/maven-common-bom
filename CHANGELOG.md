@@ -5,6 +5,13 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Un-released]
 
+### Added changed removed and sorted
+
+- Added jboss-logging slf4j-jboss-logging and jboss-logmanager libraries
+- Sorted the dependencies for easy identification of duplicates
+- Removed 2 duplicate dependency listings
+- Changed the artemis jms client version to 1.3.0
+
 ### Added
 
 - Add hamcrest date library
