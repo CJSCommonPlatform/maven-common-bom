@@ -5,12 +5,20 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Un-released]
 
-### Added changed removed and sorted
+## [1.3.0] - 2016-09-26
 
-- Added jboss-logging slf4j-jboss-logging and jboss-logmanager libraries
-- Sorted the dependencies for easy identification of duplicates
-- Removed 2 duplicate dependency listings
-- Changed the artemis jms client version to 1.3.0
+### Changed
+- Sorted properties section in the xml so that the properties are listed alphabetically
+- Changed artemis.jms.client.version from 1.2.0 to 1.3.0
+
+### Fixed
+- Removed duplicate entries for hamcrest.version and guava.version
+
+### Added
+- Add artemis.jms.version 1.3.0
+- Add artemis-ra artemis-jms-server and artemis-service-extensions libraries
+
+## [1.2.0]
 
 ### Added
 
