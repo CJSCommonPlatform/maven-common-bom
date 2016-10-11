@@ -5,6 +5,14 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- Duplicate entries for hamcrest.version and guava.version
+
+### Changed
+
+- Sorted the properties to enable easy identification of duplicates
+
 ## [1.2.0] - 2016-10-05
 
 ### Changed
