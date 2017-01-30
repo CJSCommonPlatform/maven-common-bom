@@ -83,6 +83,7 @@
         <wildfly.client.version>10.0.0.Final</wildfly.client.version>
         <wiremock.version>1.57</wiremock.version>
         <xbean.version>4.5</xbean.version>
+        <bean.matchers.version>0.10</bean.matchers.version>
 
         <cpp.scm.git.url>git@github.com:CJSCommonPlatform/maven-common-bom.git</cpp.scm.git.url>
         <cpp.scm.connection>scm:git:${cpp.scm.git.url}/</cpp.scm.connection>
@@ -641,6 +642,11 @@
                 <groupId>org.postgresql</groupId>
                 <artifactId>postgresql</artifactId>
                 <version>${postgresql.driver.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.code.bean-matchers</groupId>
+                <artifactId>bean-matchers</artifactId>
+                <version>${bean.matchers.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
