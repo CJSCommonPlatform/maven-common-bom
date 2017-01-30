@@ -5,6 +5,9 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+### Added
+- Add bean matchers library
+
 ## [1.5.1] - 2016-12-15
 
 ### Changed
