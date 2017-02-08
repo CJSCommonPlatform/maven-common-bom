@@ -83,7 +83,7 @@
         <wildfly.client.version>10.0.0.Final</wildfly.client.version>
         <wiremock.version>1.57</wiremock.version>
         <xbean.version>4.5</xbean.version>
-
+        <maven-plugin-testing-harness.version>3.3.0</maven-plugin-testing-harness.version>
         <cpp.scm.git.url>git@github.com:CJSCommonPlatform/maven-common-bom.git</cpp.scm.git.url>
         <cpp.scm.connection>scm:git:${cpp.scm.git.url}/</cpp.scm.connection>
         <cpp.scm.developerConnection>${project.scm.connection}</cpp.scm.developerConnection>
@@ -517,7 +517,11 @@
                 <artifactId>h2</artifactId>
                 <version>${h2.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>org.apache.maven.plugin-testing</groupId>
+                <artifactId>maven-plugin-testing-harness</artifactId>
+                <version>${maven-plugin-testing-harness.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.apache.tomee</groupId>
                 <artifactId>openejb-cxf-rs</artifactId>
