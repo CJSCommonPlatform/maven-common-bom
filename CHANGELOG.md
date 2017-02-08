@@ -5,6 +5,33 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [1.5.1] - 2016-12-15
+
+### Changed
+- Update org.json version to 20160810
+
+## [1.5.0] - 2016-12-01
+
+### Changed
+- Depend on MoJ forked json schema library as it has fix for date-time format
+
+## [1.4.0] - 2016-11-14
+
+### Added
+- Add hamcrest regex library
+
+### Changed
+- Resolved logging transitive dependency conflicts
+
+## [1.3.0] - 2016-11-02
+
+### Added
+- Add jolokia dependencies
+
+### Changed
+- Dependencies to resolve maven enforcer conflicts
+- Property ordering and removing duplicate declarations
+
 ## [1.2.0] - 2016-10-05
 
 ### Changed
