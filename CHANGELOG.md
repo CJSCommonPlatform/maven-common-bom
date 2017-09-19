@@ -5,6 +5,11 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [1.18.0] - 2017-09-19
+
+### Added
+- Docmosis version
+
 ## [1.17.0] - 2017-07-28
 
 ### Changed
