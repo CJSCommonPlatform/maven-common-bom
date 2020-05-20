@@ -4,6 +4,13 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## [7.0.0] - 2020-05-20
+### Added
+- Added diff.utils version 1.3.0
+- Added jolt version 0.1.1
+### Changed
+- Jumped version to 7.0.0 to match Framework and associated libraries
+
 ## [2.5.0] - 2020-02-17
 ### Removed
 - 1.5.1 of org.everit.json.schema dependency, this is causing conflicts
