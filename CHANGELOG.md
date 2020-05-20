@@ -4,6 +4,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## [7.0.1] - 2020-05-21
+### Changed
+- added dependencies required by Embedded Artemis in framework-libraries
+
 ## [7.0.0] - 2020-05-20
 ### Added
 - Added diff.utils version 1.3.0

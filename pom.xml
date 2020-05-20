@@ -48,6 +48,7 @@
         <drools.version>6.4.0.Final</drools.version>
         <expiringmap.version>0.5.7</expiringmap.version>
         <findbugs.version>3.0.0</findbugs.version>
+        <geronimo-jms.version>1.0-alpha-2</geronimo-jms.version>
         <glassfish-json.version>1.0.2</glassfish-json.version>
         <guava.version>19.0</guava.version>
         <hamcrest.date.version>2.0.4</hamcrest.date.version>
@@ -957,6 +958,39 @@
                 <artifactId>classgraph</artifactId>
                 <version>${classgraph.version}</version>
             </dependency>
+            
+            <!-- embedded artemis dependencies -->
+            <dependency>
+                <groupId>org.apache.geronimo.specs</groupId>
+                <artifactId>geronimo-jms_2.0_spec</artifactId>
+                <version>${geronimo-jms.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-core-client</artifactId>
+                <version>${artemis.jms.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-journal</artifactId>
+                <version>${artemis.jms.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-selector</artifactId>
+                <version>${artemis.jms.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-commons</artifactId>
+                <version>${artemis.jms.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-server</artifactId>
+                <version>${artemis.jms.version}</version>
+            </dependency>
         </dependencies>
+
     </dependencyManagement>
 </project>
