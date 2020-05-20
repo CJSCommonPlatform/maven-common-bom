@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>maven-common-bom</artifactId>
-    <version>2.6.0-SNAPSHOT</version>
+    <version>7.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>Bill of materials defining standard versions for dependencies of the Microservices
         framework
@@ -44,6 +44,7 @@
         <commons.validator.version>1.5.1</commons.validator.version>
         <cpp.repo.name>maven-common-bom</cpp.repo.name>
         <deltaspike.version>1.6.1</deltaspike.version>
+        <diff.utils.version>1.3.0</diff.utils.version>
         <drools.version>6.4.0.Final</drools.version>
         <expiringmap.version>0.5.7</expiringmap.version>
         <findbugs.version>3.0.0</findbugs.version>
@@ -65,10 +66,12 @@
         <jcommander.version>1.48</jcommander.version>
         <jee.api.version>7.0</jee.api.version>
         <jokolia.client.java.version>2.0.0-M3</jokolia.client.java.version>
+        <jolt.version>0.1.1</jolt.version>
         <jsonassert.version>1.2.3</jsonassert.version>
         <jsonpath.version>2.2.0</jsonpath.version>
         <junit.version>4.12</junit.version>
         <log4j.version>1.2.17</log4j.version>
+        <log4j2.version>2.11.1</log4j2.version>
         <maven-aether-provider.version>3.3.9</maven-aether-provider.version>
         <maven-compat.version>3.3.9</maven-compat.version>
         <maven-core.version>3.3.9</maven-core.version>
@@ -455,6 +458,13 @@
                 <artifactId>log4j</artifactId>
                 <version>${log4j.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-bom</artifactId>
+                <version>${log4j2.version}</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
 
             <!-- SLF4J (Simple Logging Facade for Java) -->
             <dependency>
@@ -496,6 +506,12 @@
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>jul-to-slf4j</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-jdk14</artifactId>
                 <version>${slf4j.version}</version>
             </dependency>
             <!-- End SLF4J -->
@@ -561,6 +577,25 @@
                 <groupId>org.json</groupId>
                 <artifactId>json</artifactId>
                 <version>${org.json.version}</version>
+            </dependency>
+
+            <!-- Jolt -->
+            <dependency>
+                <groupId>com.bazaarvoice.jolt</groupId>
+                <artifactId>jolt-core</artifactId>
+                <version>${jolt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.bazaarvoice.jolt</groupId>
+                <artifactId>json-utils</artifactId>
+                <version>${jolt.version}</version>
+            </dependency>
+
+            <!-- Diff utils -->
+            <dependency>
+                <groupId>com.googlecode.java-diff-utils</groupId>
+                <artifactId>diffutils</artifactId>
+                <version>${diff.utils.version}</version>
             </dependency>
 
             <!-- Test related -->
