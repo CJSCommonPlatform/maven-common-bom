@@ -104,6 +104,7 @@
         <javax.mail.version>1.5.0</javax.mail.version>
         <jglue-cdi-unit.version>4.0.1</jglue-cdi-unit.version>
         <jboss.weld.se.version>2.4.5.Final</jboss.weld.se.version>
+        <jboss-ejb3-ext-api.version>2.2.0.Final</jboss-ejb3-ext-api.version>
         <classgraph.version>4.6.32</classgraph.version>
     </properties>
 
@@ -220,6 +221,11 @@
                 <groupId>org.jboss</groupId>
                 <artifactId>jboss-vfs</artifactId>
                 <version>${jboss-vfs.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss.ejb3</groupId>
+                <artifactId>jboss-ejb3-ext-api</artifactId>
+                <version>${jboss-ejb3-ext-api.version}</version>
             </dependency>
             <dependency>
                 <groupId>javax.persistence</groupId>
