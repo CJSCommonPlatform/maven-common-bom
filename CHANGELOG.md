@@ -4,6 +4,11 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [7.0.2] - 2020-05-27
+### Added
+- Cucumber version and dependencies
+
 ## [7.0.1] - 2020-05-21
 ### Changed
 - added dependencies required by Embedded Artemis in framework-libraries
