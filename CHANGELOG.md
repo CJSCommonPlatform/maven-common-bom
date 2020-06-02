@@ -5,6 +5,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [7.0.3] - 2020-06-02
+### Changed
+- Update Drools to 6.5.0.Final
+
 ## [7.0.2] - 2020-05-27
 ### Added
 - Cucumber version and dependencies

@@ -46,7 +46,7 @@
         <cucumber.version>1.2.5</cucumber.version>
         <deltaspike.version>1.6.1</deltaspike.version>
         <diff.utils.version>1.3.0</diff.utils.version>
-        <drools.version>6.4.0.Final</drools.version>
+        <drools.version>6.5.0.Final</drools.version>
         <expiringmap.version>0.5.7</expiringmap.version>
         <findbugs.version>3.0.0</findbugs.version>
         <geronimo-jms.version>1.0-alpha-2</geronimo-jms.version>
