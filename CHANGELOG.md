@@ -5,6 +5,11 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [7.0.4] - 2020-06-17
+### Changed
+- Changed artifact and project name to `framework-libraries-common-bom`
+ to avoid duplication with names of internal libraries
+
 ## [7.0.3] - 2020-06-02
 ### Changed
 - Update Drools to 6.5.0.Final
