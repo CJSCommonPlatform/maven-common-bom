@@ -1,4 +1,4 @@
-# Framework Libraries Common BOM
+# Maven Common BOM
 
 [![Build Status](https://travis-ci.org/CJSCommonPlatform/maven-common-bom.svg?branch=master)](https://travis-ci.org/CJSCommonPlatform/maven-common-bom)
 
