@@ -4,6 +4,11 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## [7.1.0] - 2020-09-23
+### Changed
+- Updated parent maven-parent-pom to version 2.0.0
+- Moved to new Cloudsmith.io repository for hosting maven artifacts
+- Updated encrypted properties in travis.yaml to point to cloudsmith
 
 ## [7.0.3] - 2020-06-02
 ### Changed
