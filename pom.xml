@@ -28,12 +28,12 @@
     <properties>
         <apache.httpclient.version>4.5.1</apache.httpclient.version>
         <apache.commons-dbcp2.version>2.1</apache.commons-dbcp2.version>
-        <apache.tika.version>1.20</apache.tika.version>
+        <apache.tika.version>1.22</apache.tika.version>
         <artemis.jms.client.version>1.5.5</artemis.jms.client.version>
         <artemis.jms.version>1.5.5</artemis.jms.version>
         <awaitility.version>1.7.0</awaitility.version>
         <cdi.api.version>1.2</cdi.api.version>
-        <commons.beanutils.version>1.9.2</commons.beanutils.version>
+        <commons.beanutils.version>1.9.4</commons.beanutils.version>
         <commons.collections.version>3.2.2</commons.collections.version>
         <commons.cli.version>1.2</commons.cli.version>
         <commons.io.version>2.4</commons.io.version>
@@ -51,7 +51,7 @@
         <findbugs.version>3.0.0</findbugs.version>
         <geronimo-jms.version>1.0-alpha-2</geronimo-jms.version>
         <glassfish-json.version>1.0.2</glassfish-json.version>
-        <guava.version>19.0</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <hamcrest.date.version>2.0.4</hamcrest.date.version>
         <hamcrest.junit.version>2.0.0.0</hamcrest.junit.version>
         <hamcrest.regex.version>1.0.1</hamcrest.regex.version>
@@ -71,7 +71,7 @@
         <jolt.version>0.1.1</jolt.version>
         <jsonassert.version>1.2.3</jsonassert.version>
         <jsonpath.version>2.2.0</jsonpath.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <log4j.version>1.2.17</log4j.version>
         <log4j2.version>2.11.1</log4j2.version>
         <maven-aether-provider.version>3.3.9</maven-aether-provider.version>
