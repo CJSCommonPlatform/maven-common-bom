@@ -4,6 +4,14 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## [7.1.1] - 2020-10-14
+### Changed
+- Updated various library dependencies to fix security vulnerabilities: 
+    - junit:                4.12    ->   4.13.1      https://github.com/advisories/GHSA-269g-pwp5-87pp      
+    - commons.beanutils:    1.9.2   ->   1.9.4       https://github.com/advisories/GHSA-6phf-73q6-gh87
+    - commons.guava:        19.0    ->   29.0-jre    https://github.com/advisories/GHSA-mvr2-9pj6-7w5j
+    - apache.tika:          1.20    ->   1.22        https://github.com/advisories/GHSA-mm7m-xg4h-6m52
+
 ## [7.1.0] - 2020-09-23
 ### Changed
 - Updated parent maven-parent-pom to version 2.0.0
