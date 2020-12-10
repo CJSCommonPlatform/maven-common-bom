@@ -4,6 +4,20 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## [8.0.0-M1] - 2020-12-09
+- Update to Java 11
+    - Update maven-parent-pom version to 8.0.0-M1
+    - Update jsonpath version to 2.4.0
+    - Update restassured version to 2.9.0
+    - Update jaxb-core version to 2.3.0.1
+    - Update jaxb version to 2.3.1
+    - Update glassfish-json version to 1.1.4
+    - Jaxb libraries needed for java 11 as they're no longer included by default -->
+        - com.sun.xml.bind:jaxb-core
+        - javax.xml.bind:jaxb-api
+        - com.sun.xml.bind:jaxb-impl
+    - Added classgraph as a replacement for reflections.org
+
 ## [7.1.1] - 2020-10-14
 ### Changed
 - Updated various library dependencies to fix security vulnerabilities: 
