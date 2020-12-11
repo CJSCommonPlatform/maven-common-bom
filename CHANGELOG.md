@@ -4,7 +4,7 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
-## [8.0.0-M2] - 2020-12-11
+## [8.0.0-M3] - 2020-12-11
 ### Changed
 - Update maven-parent-pom to 8.0.0-M3 
 
