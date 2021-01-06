@@ -4,6 +4,12 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## [8.0.0-M4] - 2021-01-06
+### Added
+- Added dependency for xbean-asm7-shaded version 4.11
+### Changed
+- Update deltaspike version to 1.9.1
+
 ## [8.0.0-M3] - 2020-12-11
 ### Changed
 - Update maven-parent-pom to 8.0.0-M3 
