@@ -4,6 +4,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## [8.0.0-M5] - 2021-01-06
+### Fixed 
+- Move from xbean-asm5 to xbean-asm7
+
 ## [8.0.0-M4] - 2021-01-06
 ### Added
 - Added dependency for xbean-asm7-shaded version 4.11
