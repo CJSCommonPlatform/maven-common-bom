@@ -4,6 +4,12 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## [11.0.0-M2] - 2021-01-25
+### Added
+- Added dependency for deltaspike-test-control-module-impl
+### Changed
+- Bumped version to 11.0.0 to match new framework version
+
 ## [8.0.0-M5] - 2021-01-06
 ### Fixed 
 - Move from xbean-asm5 to xbean-asm7
