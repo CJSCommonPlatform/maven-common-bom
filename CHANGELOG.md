@@ -4,6 +4,14 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## [11.0.0-M3] - 2021-02-04
+### Changed
+- Update to JEE 8
+- Update maven-parent-pom to 11.0.0-M2  
+- Update deltaspike version to 1.9.4
+- Update guava version to 30.1-jre
+
+- Bumped version to 11.0.0 to match new framework version
 ## [11.0.0-M2] - 2021-01-25
 ### Added
 - Added dependency for deltaspike-test-control-module-impl
