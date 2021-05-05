@@ -26,7 +26,7 @@
     <!-- ========== PROPERTIES ========== -->
 
     <properties>
-        <apache.httpclient.version>4.5.1</apache.httpclient.version>
+        <apache.httpclient.version>4.5.13</apache.httpclient.version>
         <apache.commons-dbcp2.version>2.1</apache.commons-dbcp2.version>
         <apache.tika.version>1.22</apache.tika.version>
         <artemis.jms.client.version>1.5.5</artemis.jms.client.version>
@@ -70,7 +70,7 @@
         <jboss-vfs.version>3.2.12.Final</jboss-vfs.version>
         <jboss.weld.se.version>2.4.5.Final</jboss.weld.se.version>
         <jcommander.version>1.48</jcommander.version>
-        <jee.api.version>7.0</jee.api.version>
+        <jee.api.version>8.0</jee.api.version>
         <jglue-cdi-unit.version>4.0.1</jglue-cdi-unit.version>
         <johnzon.version>1.0.0</johnzon.version>
         <jokolia.client.java.version>2.0.0-M3</jokolia.client.java.version>
@@ -98,7 +98,7 @@
         <raml-parser.version>0.8.18</raml-parser.version>
         <reflections.version>0.9.10</reflections.version>
         <restassured.version>4.3.2</restassured.version>
-        <resteasy.version>3.0.14.Final</resteasy.version>
+        <resteasy.version>3.12.1.Final</resteasy.version>
         <servlet.api.version>3.1.0</servlet.api.version>
         <slf4j.version>1.7.10</slf4j.version>
         <snakeyaml.version>1.17</snakeyaml.version>
@@ -825,6 +825,10 @@
                         <groupId>commons-logging</groupId>
                         <artifactId>commons-logging</artifactId>
                     </exclusion>
+                    <exclusion>
+                        <groupId>commons-codec</groupId>
+                        <artifactId>commons-codec</artifactId>
+                    </exclusion>
                 </exclusions>
             </dependency>
             <dependency>
@@ -984,7 +988,7 @@
                 <artifactId>classgraph</artifactId>
                 <version>${classgraph.version}</version>
             </dependency>
-            
+
             <!-- embedded artemis dependencies -->
             <dependency>
                 <groupId>org.apache.geronimo.specs</groupId>
