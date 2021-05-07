@@ -4,6 +4,11 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## [11.0.0-M5] - 2021-05-07
+### Changed
+- Update OpenEjb to version 8.0.6 to match JEE 8.0
+- Update maven-parent-pom to 11.0.0-M3
+
 ## [11.0.0-M4] - 2021-05-05
 ### Changed
 - Update RestEasy to version 3.12.1.Final which matches the version that Wildfly 20.0.1 uses
