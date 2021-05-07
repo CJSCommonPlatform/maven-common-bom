@@ -6,7 +6,7 @@
     <parent>
         <groupId>uk.gov.justice</groupId>
         <artifactId>maven-parent-pom</artifactId>
-        <version>11.0.0-M2</version>
+        <version>11.0.0-M3</version>
     </parent>
 
     <artifactId>maven-common-bom</artifactId>
@@ -72,7 +72,7 @@
         <jcommander.version>1.48</jcommander.version>
         <jee.api.version>8.0</jee.api.version>
         <jglue-cdi-unit.version>4.0.1</jglue-cdi-unit.version>
-        <johnzon.version>1.0.0</johnzon.version>
+        <johnzon.version>1.2.9</johnzon.version>
         <jokolia.client.java.version>2.0.0-M3</jokolia.client.java.version>
         <jolt.version>0.1.1</jolt.version>
         <jsonassert.version>1.2.3</jsonassert.version>
@@ -89,7 +89,7 @@
         <maven-plugin-testing-harness.version>3.3.0</maven-plugin-testing-harness.version>
         <metrics.version>3.1.2</metrics.version>
         <mockito.version>1.10.19</mockito.version>
-        <openejb.version>7.1.4</openejb.version>
+        <openejb.version>8.0.6</openejb.version>
         <org.eclipse.sisu.plexus.version>0.3.2</org.eclipse.sisu.plexus.version>
         <org.everit.json.schema.version>1.6.0</org.everit.json.schema.version>
         <org.json.version>20170516</org.json.version>
