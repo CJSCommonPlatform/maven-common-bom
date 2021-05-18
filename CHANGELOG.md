@@ -5,6 +5,11 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [11.0.0-M7] - 2021-05-18
+### Changed
+- Update Jackson.databind version to 2.10.5.1 
+- Update Jackson version to 2.10.5 
+
 ## [11.0.0-M6] - 2021-05-18
 ### Changed
 - Update Jackson version to 2.10.5.1 
