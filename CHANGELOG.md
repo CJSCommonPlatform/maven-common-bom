@@ -4,6 +4,11 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [11.0.0-M6] - 2021-05-18
+### Changed
+- Update Jackson version to 2.10.4 
+
 ## [11.0.0-M5] - 2021-05-07
 ### Changed
 - Update OpenEjb to version 8.0.6 to match JEE 8.0
