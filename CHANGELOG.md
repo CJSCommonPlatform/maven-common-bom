@@ -5,6 +5,15 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [11.0.0-M] - 2021-06-15
+### Changed
+- Update awaitility version to 4.1.0
+- Update jsonassert version to 1.2.3
+- Update jsonpath version to 2.6.0
+- Update resteasy-client version to 4.5.7.Final
+- Update restassured version to 4.4.0
+- Update snakeyaml to version 1.26
+
 ## [11.0.0-M7] - 2021-05-18
 ### Changed
 - Update Jackson.databind version to 2.10.5.1 
