@@ -31,7 +31,7 @@
         <apache.tika.version>1.22</apache.tika.version>
         <artemis.jms.client.version>1.5.5</artemis.jms.client.version>
         <artemis.jms.version>1.5.5</artemis.jms.version>
-        <awaitility.version>1.7.0</awaitility.version>
+        <awaitility.version>4.1.0</awaitility.version>
         <cdi.api.version>1.2</cdi.api.version>
         <classgraph.version>4.8.90</classgraph.version>
         <commons.beanutils.version>1.9.4</commons.beanutils.version>
@@ -76,7 +76,7 @@
         <jokolia.client.java.version>2.0.0-M3</jokolia.client.java.version>
         <jolt.version>0.1.1</jolt.version>
         <jsonassert.version>1.2.3</jsonassert.version>
-        <jsonpath.version>2.4.0</jsonpath.version>
+        <jsonpath.version>2.6.0</jsonpath.version>
         <junit.version>4.13.1</junit.version>
         <log4j.version>1.2.17</log4j.version>
         <log4j2.version>2.11.1</log4j2.version>
@@ -97,11 +97,12 @@
         <plexus-utils.version>3.0.22</plexus-utils.version>
         <raml-parser.version>0.8.18</raml-parser.version>
         <reflections.version>0.9.10</reflections.version>
-        <restassured.version>4.3.2</restassured.version>
-        <resteasy.version>3.12.1.Final</resteasy.version>
+        <restassured.version>4.4.0</restassured.version>
+        <resteasy.version>3.15.1.Final</resteasy.version>
+        <resteasy-client.version>4.5.7.Final</resteasy-client.version>
         <servlet.api.version>3.1.0</servlet.api.version>
         <slf4j.version>1.7.10</slf4j.version>
-        <snakeyaml.version>1.17</snakeyaml.version>
+        <snakeyaml.version>1.26</snakeyaml.version>
         <version.org.wildfly>10.0.0.Final</version.org.wildfly>
         <weld.version>2.4.0.Final</weld.version>
         <wildfly.client.version>10.0.0.Final</wildfly.client.version>
@@ -160,6 +161,10 @@
                         <groupId>javax.activation</groupId>
                         <artifactId>activation</artifactId>
                     </exclusion>
+                    <exclusion>
+                        <groupId>com.sun.activation</groupId>
+                        <artifactId>jakarta.activation</artifactId>
+                    </exclusion>
                 </exclusions>
             </dependency>
             <dependency>
@@ -186,6 +191,10 @@
                     <exclusion>
                         <groupId>javax.activation</groupId>
                         <artifactId>activation</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>com.sun.activation</groupId>
+                        <artifactId>jakarta.activation</artifactId>
                     </exclusion>
                     <exclusion>
                         <groupId>commons-logging</groupId>
@@ -626,25 +635,30 @@
 
             <!-- Test related -->
             <dependency>
+                <groupId>io.rest-assured</groupId>
+                <artifactId>json-path</artifactId>
+                <version>${restassured.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>com.jayway.jsonpath</groupId>
                 <artifactId>json-path</artifactId>
                 <version>${jsonpath.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.jayway.jsonpath</groupId>
                 <artifactId>json-path-assert</artifactId>
                 <version>${jsonpath.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.hamcrest</groupId>
+                        <artifactId>hamcrest</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
-                <groupId>com.jayway.awaitility</groupId>
+                <groupId>org.awaitility</groupId>
                 <artifactId>awaitility</artifactId>
                 <version>${awaitility.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.rest-assured</groupId>
-                <artifactId>json-path</artifactId>
-                <version>${restassured.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.mockito</groupId>
