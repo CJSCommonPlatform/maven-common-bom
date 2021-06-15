@@ -5,7 +5,7 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
-## [11.0.0-M] - 2021-06-15
+## [11.0.0-M8] - 2021-06-15
 ### Changed
 - Update awaitility version to 4.1.0
 - Update jsonassert version to 1.2.3
