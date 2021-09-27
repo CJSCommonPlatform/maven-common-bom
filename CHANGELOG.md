@@ -4,6 +4,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## [8.0.0-M1] - 2021-09-27
+### Changed
+- Bumped the version to match the final Java 8 release of the framework
+
 ## [7.1.1] - 2020-10-14
 ### Changed
 - Updated various library dependencies to fix security vulnerabilities: 
