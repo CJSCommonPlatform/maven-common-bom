@@ -4,6 +4,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## [8.0.1] - 2021-10-04
+### Changed
+- Re-release of pom to fix corrupt file in artifactory. No other changes
+
 ## [8.0.0] - 2021-09-27
 ### Changed
 - Bumped the version to match the final Java 8 release of the framework
