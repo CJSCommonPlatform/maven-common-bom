@@ -4,9 +4,11 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
 ## [7.2.0] - 2021-12-13
 ### Changed
 - Updated log4j2 to 2.15.0 to fix security vulnerability https://www.randori.com/blog/cve-2021-44228/ 
+- Updated maven-parent-pom to 2.0.1 
 
 ## [7.1.1] - 2020-10-14
 ### Changed
