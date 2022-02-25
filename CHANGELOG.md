@@ -5,6 +5,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [11.0.0-M9] - 2022-02-25
+### Changed
+- Update log4j2 version to 2.17.1 to fix critical security violation
+
 ## [11.0.0-M8] - 2021-06-15
 ### Changed
 - Update awaitility version to 4.1.0
