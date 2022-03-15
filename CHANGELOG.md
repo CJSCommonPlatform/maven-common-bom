@@ -5,6 +5,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [11.0.0-M11] - 2022-03-15
+### Changed
+- Added com.lmax.disruptor version 3.4.4 required by Jmx Command Client
+
 ## [11.0.0-M10] - 2022-03-15
 ### Changed
 - Updated to log4j2. All log4j 1 libraries removed or updated
