@@ -5,6 +5,15 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [11.0.0-M10] - 2022-03-15
+### Changed
+- Updated to log4j2. All log4j 1 libraries removed or updated
+  - Update log4j.version to 2.17.2
+- Updates of versions of libraries needed for Framework Jmx Command Client
+  - Update slf4j.version to 1.7.36
+  - Update weld.version to 3.1.4.Final
+  - Update wildfly.version to 20.0.1.Final
+
 ## [11.0.0-M9] - 2022-02-25
 ### Changed
 - Update log4j2 version to 2.17.1 to fix critical security violation

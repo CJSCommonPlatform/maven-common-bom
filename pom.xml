@@ -32,6 +32,7 @@
         <artemis.jms.client.version>1.5.5</artemis.jms.client.version>
         <artemis.jms.version>1.5.5</artemis.jms.version>
         <awaitility.version>4.1.0</awaitility.version>
+        <blockhound.version>1.0.6.RELEASE</blockhound.version>
         <cdi.api.version>1.2</cdi.api.version>
         <classgraph.version>4.8.90</classgraph.version>
         <commons.beanutils.version>1.9.4</commons.beanutils.version>
@@ -68,7 +69,6 @@
         <jboss-ejb3-ext-api.version>2.2.0.Final</jboss-ejb3-ext-api.version>
         <jboss-logging.version>3.3.0.Final</jboss-logging.version>
         <jboss-vfs.version>3.2.12.Final</jboss-vfs.version>
-        <jboss.weld.se.version>2.4.5.Final</jboss.weld.se.version>
         <jcommander.version>1.48</jcommander.version>
         <jee.api.version>8.0</jee.api.version>
         <jglue-cdi-unit.version>4.0.1</jglue-cdi-unit.version>
@@ -78,8 +78,8 @@
         <jsonassert.version>1.2.3</jsonassert.version>
         <jsonpath.version>2.6.0</jsonpath.version>
         <junit.version>4.13.1</junit.version>
-        <log4j.version>1.2.17</log4j.version>
-        <log4j2.version>2.17.1</log4j2.version>
+        <log4j.version>2.17.2</log4j.version>
+
         <maven-aether-provider.version>3.3.9</maven-aether-provider.version>
         <maven-compat.version>3.3.9</maven-compat.version>
         <maven-core.version>3.3.9</maven-core.version>
@@ -101,11 +101,10 @@
         <resteasy.version>3.15.1.Final</resteasy.version>
         <resteasy-client.version>4.5.7.Final</resteasy-client.version>
         <servlet.api.version>3.1.0</servlet.api.version>
-        <slf4j.version>1.7.10</slf4j.version>
+        <slf4j.version>1.7.36</slf4j.version>
         <snakeyaml.version>1.26</snakeyaml.version>
-        <version.org.wildfly>10.0.0.Final</version.org.wildfly>
-        <weld.version>2.4.0.Final</weld.version>
-        <wildfly.client.version>10.0.0.Final</wildfly.client.version>
+        <weld.version>3.1.4.Final</weld.version>
+        <wildfly.version>20.0.1.Final</wildfly.version>
         <wiremock.version>1.58</wiremock.version>
         <xbean.version>4.11</xbean.version>
     </properties>
@@ -124,13 +123,18 @@
             <dependency>
                 <groupId>org.wildfly</groupId>
                 <artifactId>wildfly-dist</artifactId>
-                <version>${version.org.wildfly}</version>
+                <version>${wildfly.version}</version>
                 <type>zip</type>
             </dependency>
             <dependency>
                 <groupId>org.jboss.weld.se</groupId>
-                <artifactId>weld-se</artifactId>
+                <artifactId>weld-se-shaded</artifactId>
                 <version>${weld.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.projectreactor.tools</groupId>
+                <artifactId>blockhound</artifactId>
+                <version>${blockhound.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.google.guava</groupId>
@@ -485,9 +489,14 @@
             <dependency>
                 <groupId>org.apache.logging.log4j</groupId>
                 <artifactId>log4j-bom</artifactId>
-                <version>${log4j2.version}</version>
+                <version>${log4j.version}</version>
                 <scope>import</scope>
                 <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-api</artifactId>
+                <version>${log4j.version}</version>
             </dependency>
 
             <!-- SLF4J (Simple Logging Facade for Java) -->
@@ -704,7 +713,7 @@
             <dependency>
                 <groupId>org.jboss.weld.se</groupId>
                 <artifactId>weld-se-core</artifactId>
-                <version>${jboss.weld.se.version}</version>
+                <version>${weld.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.jolokia</groupId>
@@ -891,7 +900,7 @@
             <dependency>
                 <groupId>org.wildfly</groupId>
                 <artifactId>wildfly-client-all</artifactId>
-                <version>${wildfly.client.version}</version>
+                <version>${wildfly.version}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.jboss</groupId>
