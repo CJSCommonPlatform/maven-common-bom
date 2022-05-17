@@ -5,6 +5,12 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [11.0.0-M12] - 2022-05-17
+### Changed
+- Update maven-parent-pom to 11.0.0-M4 to allow
+  - Update of liquibase to 4.10.0
+- Update commons-io to 2.7 to fix security vulnerability in commons-io
+
 ## [11.0.0-M11] - 2022-03-15
 ### Changed
 - Added com.lmax.disruptor version 3.4.4 required by Jmx Command Client
