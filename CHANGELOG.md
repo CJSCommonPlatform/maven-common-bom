@@ -5,6 +5,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [11.0.0-M13] - 2022-05-23
+### Changed
+- Moved snakeyaml.version to maven-parent-pom as it is now a liquibase dependency
+
 ## [11.0.0-M12] - 2022-05-17
 ### Changed
 - Update maven-parent-pom to 11.0.0-M4 to allow
