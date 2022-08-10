@@ -5,6 +5,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [11.0.0-M14] - 2022-08-10
+### Changed
+- Updated artemis-jms-client to 2.10.1
+
 ## [11.0.0-M13] - 2022-05-23
 ### Changed
 - Moved snakeyaml.version to maven-parent-pom as it is now a liquibase dependency
