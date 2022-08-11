@@ -653,6 +653,11 @@
                 <version>${restassured.version}</version>
             </dependency>
             <dependency>
+                <groupId>io.rest-assured</groupId>
+                <artifactId>rest-assured</artifactId>
+                <version>${restassured.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>com.jayway.jsonpath</groupId>
                 <artifactId>json-path</artifactId>
                 <version>${jsonpath.version}</version>

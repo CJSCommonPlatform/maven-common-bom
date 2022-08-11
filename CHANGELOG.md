@@ -5,6 +5,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [11.0.0-M15] - 2022-08-11
+### Added
+- Dependency for io.rest-assured:rest-assured  
+
 ## [11.0.0-M14] - 2022-08-10
 ### Changed
 - Updated artemis-jms-client to 2.10.1
