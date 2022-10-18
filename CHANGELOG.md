@@ -5,6 +5,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [11.0.0-M15] - 2022-10-18
+### Changed
+- Updated slf4j/log4j bridge jar from slf4j-log4j12 to slf4j-reload4j  
+
 ## [11.0.0-M15] - 2022-08-11
 ### Added
 - Dependency for io.rest-assured:rest-assured  
