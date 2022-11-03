@@ -29,7 +29,7 @@
         <apache.httpclient.version>4.5.13</apache.httpclient.version>
         <apache.commons-dbcp2.version>2.1</apache.commons-dbcp2.version>
         <apache.tika.version>1.22</apache.tika.version>
-        <artemis.jms.version>2.10.1</artemis.jms.version>
+        <artemis.jms.version>2.20.0</artemis.jms.version>
         <awaitility.version>4.1.0</awaitility.version>
         <blockhound.version>1.0.6.RELEASE</blockhound.version>
         <cdi.api.version>1.2</cdi.api.version>
@@ -98,12 +98,12 @@
         <raml-parser.version>0.8.18</raml-parser.version>
         <reflections.version>0.9.10</reflections.version>
         <restassured.version>4.4.0</restassured.version>
-        <resteasy.version>3.15.1.Final</resteasy.version>
-        <resteasy-client.version>4.5.7.Final</resteasy-client.version>
+        <resteasy.version>3.15.3.Final</resteasy.version>
+        <resteasy-client.version>4.7.7.Final</resteasy-client.version>
         <servlet.api.version>3.1.0</servlet.api.version>
         <slf4j.version>1.7.36</slf4j.version>
         <weld.version>3.1.4.Final</weld.version>
-        <wildfly.version>20.0.1.Final</wildfly.version>
+        <wildfly.version>26.1.2.Final</wildfly.version>
         <wiremock.version>1.58</wiremock.version>
         <xbean.version>4.11</xbean.version>
     </properties>
@@ -183,7 +183,7 @@
             <dependency>
                 <groupId>org.jboss.resteasy</groupId>
                 <artifactId>resteasy-client</artifactId>
-                <version>${resteasy.version}</version>
+                <version>${resteasy-client.version}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>javax.activation</groupId>
