@@ -67,7 +67,7 @@
         <javax.json.version>1.0</javax.json.version>
         <javax.mail.version>1.5.0</javax.mail.version>
         <jboss-ejb3-ext-api.version>2.2.0.Final</jboss-ejb3-ext-api.version>
-        <jboss-logging.version>3.3.0.Final</jboss-logging.version>
+        <jboss-logging.version>3.5.0.Final</jboss-logging.version>
         <jboss-vfs.version>3.2.12.Final</jboss-vfs.version>
         <jcommander.version>1.48</jcommander.version>
         <jee.api.version>8.0</jee.api.version>

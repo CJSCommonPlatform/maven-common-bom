@@ -5,6 +5,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [11.0.0-M18] - 2022-11-16
+### Changed
+- Updated jboss-logging version to 3.5.0.Final 
+
 ## [11.0.0-M17] - 2022-11-03
 ### Security
 - Updates to various libraries to address security alerts:
