@@ -4,6 +4,17 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## [11.0.0-M20] - 2022-11-22
+### Security
+- Update hibernate version to 5.4.24.Final
+- Update jackson.databind version to 2.12.7.1
+
+### Changed
+- Update openejb version to 8.0.13 
+- Update apache.commons-dbcp2 version to 2.9.0 
+- Update artemis.jms version to 2.24.0 
+- Update commons.lang3 version to 3.12.0 
+- Update deltaspike version to 1.9.6 
 
 ## [11.0.0-M19] - 2022-11-17
 ### Changed
