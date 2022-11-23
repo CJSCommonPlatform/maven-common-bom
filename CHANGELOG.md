@@ -4,6 +4,11 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [11.0.0-M21] - 2022-11-23
+### Removed
+- Removed log4j-over-slf4j as it is now replaced by slf4j-reload4j
+
 ## [11.0.0-M20] - 2022-11-22
 ### Security
 - Update hibernate version to 5.4.24.Final
