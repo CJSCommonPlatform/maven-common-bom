@@ -4,6 +4,14 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## [11.0.0-M22] - 2023-01-13
+### Changed
+- Update mockito version to 4.11.0
+- Update slf4j version to 2.0.6 
+- Update hamcrest version to 2.2
+- Update slf4j version to 2.0.6
+### Removed
+- Removed all old hamcrest libraries
 
 ## [11.0.0-M21] - 2022-11-23
 ### Removed
