@@ -6,7 +6,7 @@
     <parent>
         <groupId>uk.gov.justice</groupId>
         <artifactId>maven-parent-pom</artifactId>
-        <version>11.0.0</version>
+        <version>11.0.1</version>
     </parent>
 
     <artifactId>maven-common-bom</artifactId>
