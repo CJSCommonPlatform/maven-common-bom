@@ -6,6 +6,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [17.0.0-M2] - 2023-02-15
+### Changed
+- Update maven-parent-pom
+
 ## [17.0.0-M1] - 2023-02-02
 ### Changed
 - Update to Java 17
