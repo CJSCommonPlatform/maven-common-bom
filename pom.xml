@@ -6,11 +6,11 @@
     <parent>
         <groupId>uk.gov.justice</groupId>
         <artifactId>maven-parent-pom</artifactId>
-        <version>11.0.1</version>
+        <version>17.0.0-M2</version>
     </parent>
 
     <artifactId>maven-common-bom</artifactId>
-    <version>11.0.2-SNAPSHOT</version>
+    <version>17.0.0-M2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>Bill of materials defining standard versions for dependencies of the Microservices
         framework
@@ -73,7 +73,7 @@
         <jokolia.client.java.version>2.0.0-M3</jokolia.client.java.version>
         <jolt.version>0.1.1</jolt.version>
         <jsonassert.version>1.2.3</jsonassert.version>
-        <jsonpath.version>2.6.0</jsonpath.version>
+        <jsonpath.version>2.7.0</jsonpath.version>
         <junit.version>4.13.1</junit.version>
         <log4j.version>2.17.2</log4j.version>
 
@@ -81,7 +81,7 @@
         <maven-compat.version>3.3.9</maven-compat.version>
         <maven-core.version>3.3.9</maven-core.version>
         <maven-model.version>3.3.9</maven-model.version>
-        <maven-plugin-annotations.version>3.4</maven-plugin-annotations.version>
+        <maven-plugin-annotations.version>3.7.1</maven-plugin-annotations.version>
         <maven-plugin-api.version>3.3.9</maven-plugin-api.version>
         <maven-plugin-testing-harness.version>3.3.0</maven-plugin-testing-harness.version>
         <metrics.version>3.1.2</metrics.version>
