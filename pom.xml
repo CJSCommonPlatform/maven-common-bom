@@ -6,7 +6,7 @@
     <parent>
         <groupId>uk.gov.justice</groupId>
         <artifactId>maven-parent-pom</artifactId>
-        <version>17.0.0-M2</version>
+        <version>17.0.0-M3</version>
     </parent>
 
     <artifactId>maven-common-bom</artifactId>
@@ -32,6 +32,7 @@
         <artemis.jms.version>2.24.0</artemis.jms.version>
         <awaitility.version>4.1.0</awaitility.version>
         <blockhound.version>1.0.6.RELEASE</blockhound.version>
+        <byte-buddy.version>1.12.22</byte-buddy.version>
         <cdi.api.version>1.2</cdi.api.version>
         <classgraph.version>4.8.90</classgraph.version>
         <commons.beanutils.version>1.9.4</commons.beanutils.version>
@@ -76,7 +77,6 @@
         <jsonpath.version>2.7.0</jsonpath.version>
         <junit.version>4.13.1</junit.version>
         <log4j.version>2.17.2</log4j.version>
-
         <maven-aether-provider.version>3.3.9</maven-aether-provider.version>
         <maven-compat.version>3.3.9</maven-compat.version>
         <maven-core.version>3.3.9</maven-core.version>
@@ -604,6 +604,12 @@
                 <groupId>com.googlecode.java-diff-utils</groupId>
                 <artifactId>diffutils</artifactId>
                 <version>${diff.utils.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>net.bytebuddy</groupId>
+                <artifactId>byte-buddy</artifactId>
+                <version>${byte-buddy.version}</version>
             </dependency>
 
             <!-- Cucumber -->
