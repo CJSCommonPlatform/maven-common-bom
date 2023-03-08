@@ -6,6 +6,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [17.0.0-M3] - 2023-03-08
+### Changed
+- Add byte-buddy 1.12.22 as a replacement for cglib
+
 ## [17.0.0-M2] - 2023-02-15
 ### Changed
 - Update maven-parent-pom
