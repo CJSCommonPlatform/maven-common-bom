@@ -6,25 +6,14 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
-## [17.0.0-M5] - 2023-03-26
-### Changed
-- Remove illegal-access argument from surefire plugin from plugin management (through parent pom release)
-
-## [17.0.0-M4] - 2023-03-24
-### Changed
-- Remove illegal-access argument from surefire plugin
-
-## [17.0.0-M3] - 2023-03-08
-### Changed
-- Add byte-buddy 1.12.22 as a replacement for cglib
-
-## [17.0.0-M2] - 2023-02-15
-### Changed
-- Update maven-parent-pom
-
-## [17.0.0-M1] - 2023-02-02
+## [17.0.0] - 2023-05-05
 ### Changed
 - Update to Java 17
+### Added
+- Add byte-buddy 1.12.22 as a replacement for cglib
+### Removed
+- Remove illegal-access argument from surefire plugin from plugin management (through parent pom release)
+- Remove illegal-access argument from surefire plugin
 
 ## [11.0.1] - 2023-02-01
 ### Changed
