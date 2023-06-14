@@ -6,6 +6,11 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [17.0.1] - 2023-06-14
+### Security
+- Update org.json to version 20230227 to fix **security vulnerability CVE-2022-45688** 
+   Detail: https://nvd.nist.gov/vuln/detail/CVE-2022-45688
+
 ## [17.0.0] - 2023-05-05
 ### Changed
 - Update to Java 17
