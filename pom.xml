@@ -64,7 +64,7 @@
         <javapoet.version>1.6.1</javapoet.version>
         <javassist.version>3.20.0-GA</javassist.version>
         <jakarta.json.version>2.1.2</jakarta.json.version>
-        <jakarta.mail.version>2.0.2</jakarta.mail.version>
+        <jakarta.mail.version>2.0.1</jakarta.mail.version>
         <jboss-ejb3-ext-api.version>2.3.0.Final</jboss-ejb3-ext-api.version>
         <jboss-logging.version>3.5.0.Final</jboss-logging.version>
         <jboss-vfs.version>3.2.12.Final</jboss-vfs.version>
@@ -103,9 +103,6 @@
         <wildfly.version>28.0.1.Final</wildfly.version>
         <wiremock.version>1.58</wiremock.version>
         <xbean.version>4.11</xbean.version>
-        <xml-bind-core.version>4.0.3</xml-bind-core.version>
-        <xml-bind-api.version>4.0.0</xml-bind-api.version>
-        <xml-bind-impl.version>4.0.3</xml-bind-impl.version>
     </properties>
 
     <scm>
