@@ -56,7 +56,7 @@
         <guava.version>30.1-jre</guava.version>
         <hamcrest.regex.version>1.0.1</hamcrest.regex.version>
         <hamcrest.version>2.2</hamcrest.version>
-        <hibernate.version>6.2.5.Final</hibernate.version>
+        <hibernate.version>6.2.1</hibernate.version>
         <hibernate-entity-manager.version>6.0.0.Alpha7</hibernate-entity-manager.version>
         <jackson.version>2.12.7</jackson.version>
         <jackson.databind.version>2.12.7.1</jackson.databind.version>
