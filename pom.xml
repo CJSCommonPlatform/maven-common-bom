@@ -222,7 +222,7 @@
                 </exclusions>
             </dependency>
             <dependency>
-                <groupId>org.eclipse.angus</groupId>
+                <groupId>com.sun.mail</groupId>
                 <artifactId>jakarta.mail</artifactId>
                 <version>${jakarta.mail.version}</version>
             </dependency>
@@ -800,11 +800,11 @@
                     </exclusion>
                 </exclusions>
             </dependency>
-            <dependency>
+            <!--<dependency>
                 <groupId>org.hibernate</groupId>
                 <artifactId>hibernate-entitymanager</artifactId>
                 <version>${hibernate-entity-manager.version}</version>
-            </dependency>
+            </dependency>-->
             <dependency>
                 <groupId>org.apache.xbean</groupId>
                 <artifactId>xbean-asm7-shaded</artifactId>
