@@ -155,7 +155,7 @@
                 <artifactId>jboss-logging</artifactId>
                 <version>${jboss-logging.version}</version>
             </dependency>
-            <dependency> <!-- TODO Are these third party libraries compatible with jakarta EE 10? -->
+            <dependency>
                 <groupId>org.jboss.resteasy</groupId>
                 <artifactId>resteasy-jaxrs-all</artifactId>
                 <version>${resteasy.version}</version>
