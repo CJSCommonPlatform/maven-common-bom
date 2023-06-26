@@ -29,7 +29,8 @@
         <apache.httpclient.version>4.5.13</apache.httpclient.version>
         <apache.commons-dbcp2.version>2.9.0</apache.commons-dbcp2.version>
         <apache.tika.version>1.22</apache.tika.version>
-        <artemis.jms.version>2.24.0</artemis.jms.version>
+        <!--<artemis.jms.version>2.24.0</artemis.jms.version>-->
+        <artemis.jakarta.version>2.26.0</artemis.jakarta.version>
         <awaitility.version>4.1.0</awaitility.version>
         <blockhound.version>1.0.6.RELEASE</blockhound.version>
         <byte-buddy.version>1.12.22</byte-buddy.version>
@@ -51,7 +52,7 @@
         <drools.version>6.5.0.Final</drools.version>
         <expiringmap.version>0.5.7</expiringmap.version>
         <findbugs.version>3.0.0</findbugs.version>
-        <geronimo-jms.version>1.0-alpha-2</geronimo-jms.version>
+        <!--<geronimo-jms.version>1.0-alpha-2</geronimo-jms.version>-->
         <glassfish-json.version>2.0.1</glassfish-json.version>
         <guava.version>30.1-jre</guava.version>
         <hamcrest.regex.version>1.0.1</hamcrest.regex.version>
@@ -95,8 +96,8 @@
         <raml-parser.version>0.8.18</raml-parser.version>
         <reflections.version>0.9.10</reflections.version>
         <restassured.version>4.4.0</restassured.version>
-        <resteasy.version>4.7.7.Final</resteasy.version>
-        <resteasy-client.version>4.7.7.Final</resteasy-client.version>
+        <resteasy.version>6.2.4.Final</resteasy.version>
+        <resteasy-client.version>6.2.4.Final</resteasy-client.version>
         <servlet.api.version>6.0.0</servlet.api.version>
         <slf4j.version>2.0.6</slf4j.version>
         <weld.version>3.1.4.Final</weld.version>
@@ -784,8 +785,8 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
-                <artifactId>artemis-jms-client</artifactId>
-                <version>${artemis.jms.version}</version>
+                <artifactId>artemis-jakarta-client</artifactId>
+                <version>${artemis.jakarta.version}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.apache.johnzon</groupId>
@@ -853,17 +854,17 @@
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-ra</artifactId>
-                <version>${artemis.jms.version}</version>
+                <version>${artemis.jakarta.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
-                <artifactId>artemis-jms-server</artifactId>
-                <version>${artemis.jms.version}</version>
+                <artifactId>artemis-jakarta-server</artifactId>
+                <version>${artemis.jakarta.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-service-extensions</artifactId>
-                <version>${artemis.jms.version}</version>
+                <version>${artemis.jakarta.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.wildfly</groupId>
@@ -981,35 +982,35 @@
             </dependency>
 
             <!-- embedded artemis dependencies -->
-            <dependency>
+            <!--<dependency>
                 <groupId>org.apache.geronimo.specs</groupId>
                 <artifactId>geronimo-jms_2.0_spec</artifactId>
                 <version>${geronimo-jms.version}</version>
-            </dependency>
+            </dependency>-->
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-core-client</artifactId>
-                <version>${artemis.jms.version}</version>
+                <version>${artemis.jakarta.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-journal</artifactId>
-                <version>${artemis.jms.version}</version>
+                <version>${artemis.jakarta.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-selector</artifactId>
-                <version>${artemis.jms.version}</version>
+                <version>${artemis.jakarta.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-commons</artifactId>
-                <version>${artemis.jms.version}</version>
+                <version>${artemis.jakarta.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-server</artifactId>
-                <version>${artemis.jms.version}</version>
+                <version>${artemis.jakarta.version}</version>
             </dependency>
 
             <!-- Jaxb libraries needed for java 11 as they're no longer included by default -->
