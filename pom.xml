@@ -59,8 +59,8 @@
         <hamcrest.version>2.2</hamcrest.version>
         <hibernate.version>6.2.1</hibernate.version>
         <hibernate-entity-manager.version>6.0.0.Alpha7</hibernate-entity-manager.version>
-        <jackson.version>2.12.7</jackson.version>
-        <jackson.databind.version>2.12.7.1</jackson.databind.version>
+        <jackson.version>2.15.2</jackson.version>
+        <jackson.databind.version>2.14.2</jackson.databind.version>
         <java.8.matchers.version>1.1</java.8.matchers.version>
         <javapoet.version>1.6.1</javapoet.version>
         <javassist.version>3.20.0-GA</javassist.version>
@@ -304,7 +304,7 @@
 
             <dependency>
                 <groupId>com.fasterxml.jackson.datatype</groupId>
-                <artifactId>jackson-datatype-jsr353</artifactId>
+                <artifactId>jackson-datatype-jakarta-jsonp</artifactId>
                 <version>${jackson.version}</version>
             </dependency>
 
