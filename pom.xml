@@ -60,7 +60,7 @@
         <hamcrest.version>2.2</hamcrest.version>
         <hibernate.version>6.2.1</hibernate.version>
         <hibernate-entity-manager.version>6.0.0.Alpha7</hibernate-entity-manager.version>
-        <jackson.version>2.15.2</jackson.version>
+        <jackson.version>2.14.2</jackson.version>
         <jackson.databind.version>2.14.2</jackson.databind.version>
         <java.8.matchers.version>1.1</java.8.matchers.version>
         <javapoet.version>1.6.1</javapoet.version>
@@ -867,6 +867,12 @@
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-jakarta-server</artifactId>
                 <version>${artemis.jakarta.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.apache.johnzon</groupId>
+                        <artifactId>johnzon-core</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
@@ -998,6 +1004,12 @@
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-core-client</artifactId>
                 <version>${artemis.jakarta.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.jboss.logging</groupId>
+                        <artifactId>jboss-logging</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
@@ -1021,20 +1033,26 @@
             </dependency>
 
             <!-- Jaxb libraries needed for java 11 as they're no longer included by default -->
-            <dependency>
+           <!-- <dependency>
                 <groupId>com.sun.xml.bind</groupId>
                 <artifactId>jaxb-core</artifactId>
                 <version>${xml-bind-core.version}</version>
-            </dependency>
+            </dependency>-->
             <dependency>
                 <groupId>jakarta.xml.bind</groupId>
                 <artifactId>jakarta.xml.bind-api</artifactId>
                 <version>${xml-bind-api.version}</version>
             </dependency>
-            <dependency>
+            <!--<dependency>
                 <groupId>com.sun.xml.bind</groupId>
                 <artifactId>jaxb-impl</artifactId>
                 <version>${xml-bind-impl.version}</version>
+            </dependency>-->
+            <!-- Required by raml-parser -->
+            <dependency>
+                <groupId>javax.xml.bind</groupId>
+                <artifactId>jaxb-api</artifactId>
+                <version>${jaxb.version}</version>
             </dependency>
 
         </dependencies>
