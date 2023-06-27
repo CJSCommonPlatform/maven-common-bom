@@ -53,7 +53,8 @@
         <expiringmap.version>0.5.7</expiringmap.version>
         <findbugs.version>3.0.0</findbugs.version>
         <!--<geronimo-jms.version>1.0-alpha-2</geronimo-jms.version>-->
-        <glassfish-json.version>2.0.1</glassfish-json.version>
+        <!--<glassfish-json.version>2.0.1</glassfish-json.version>-->
+        <eclipse-parson.version>1.1.1</eclipse-parson.version>
         <guava.version>30.1-jre</guava.version>
         <hamcrest.regex.version>1.0.1</hamcrest.regex.version>
         <hamcrest.version>2.2</hamcrest.version>
@@ -378,10 +379,16 @@
                 <artifactId>jakarta.servlet-api</artifactId>
                 <version>${servlet.api.version}</version>
             </dependency>
-            <dependency>
+            <!--<dependency>
                 <groupId>org.glassfish</groupId>
                 <artifactId>jakarta.json</artifactId>
                 <version>${glassfish-json.version}</version>
+            </dependency>-->
+            <dependency>
+                <groupId>org.eclipse.parsson</groupId>
+                <artifactId>parsson</artifactId>
+                <version>${eclipse-parson.version}</version>
+                <scope>test</scope>
             </dependency>
 
             <dependency>
