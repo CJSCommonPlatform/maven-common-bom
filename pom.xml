@@ -54,7 +54,6 @@
         <findbugs.version>3.0.0</findbugs.version>
         <!--<geronimo-jms.version>1.0-alpha-2</geronimo-jms.version>-->
         <!--<glassfish-json.version>2.0.1</glassfish-json.version>-->
-        <eclipse-parson.version>1.1.1</eclipse-parson.version>
         <guava.version>30.1-jre</guava.version>
         <hamcrest.regex.version>1.0.1</hamcrest.regex.version>
         <hamcrest.version>2.2</hamcrest.version>
