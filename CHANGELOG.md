@@ -6,6 +6,20 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [17.1.2] - 2023-07-11
+### Changed
+- Update to JUnit 5
+- Update maven-parent-pom to 17.1.0
+- Update junit dependencies
+  - Cucumber to 7.12.1
+  - Mockito to 5.3.1
+  - Servlet.api to 4.0.1
+  - Wiremock version to 3.0.0-beta-10
+### Security
+  - Update Guava to 32.0.0-jre
+### Removed
+  - Removed net.trajano.commons:commons-testing
+
 ## [17.0.1] - 2023-06-14
 ### Security
 - Update org.json to version 20230227 to fix **security vulnerability CVE-2022-45688** 
