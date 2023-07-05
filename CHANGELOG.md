@@ -6,7 +6,7 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
-## [17.1.0] - 2023-07-05
+## [17.1.1] - 2023-07-05
 ### Changed
 - Update to JUnit 5
 - Update maven-parent-pom to 17.1.0
