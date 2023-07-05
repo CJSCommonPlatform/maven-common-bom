@@ -6,6 +6,16 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [17.1.0] - 2023-07-05
+### Changed
+- Update to JUnit 5
+- Update junit dependencies
+  - Cucumber to 7.12.1
+  - Mockito to 5.3.1
+  - Openejb to 9.1.0
+### Security
+  - Update Guava to 32.0.0-jre
+
 ## [17.0.1] - 2023-06-14
 ### Security
 - Update org.json to version 20230227 to fix **security vulnerability CVE-2022-45688** 
