@@ -9,6 +9,7 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 ## [17.1.0] - 2023-07-05
 ### Changed
 - Update to JUnit 5
+- Update maven-parent-pom to 17.1.0
 - Update junit dependencies
   - Cucumber to 7.12.1
   - Mockito to 5.3.1
