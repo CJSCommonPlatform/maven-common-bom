@@ -41,7 +41,6 @@
         <commons.io.version>2.7</commons.io.version>
         <commons.lang3.version>3.12.0</commons.lang3.version>
         <commons.logging.version>1.2</commons.logging.version>
-        <commons.testing.version>1.0.1</commons.testing.version>
         <commons.validator.version>1.5.1</commons.validator.version>
         <cpp.repo.name>maven-common-bom</cpp.repo.name>
         <cucumber.version>7.12.1</cucumber.version>
@@ -86,7 +85,7 @@
         <maven-plugin-testing-harness.version>3.3.0</maven-plugin-testing-harness.version>
         <metrics.version>3.1.2</metrics.version>
         <mockito.version>5.3.1</mockito.version>
-        <openejb.version>9.1.0</openejb.version>
+        <openejb.version>8.0.13</openejb.version>
         <org.eclipse.sisu.plexus.version>0.3.2</org.eclipse.sisu.plexus.version>
         <org.everit.json.schema.version>1.6.0</org.everit.json.schema.version>
         <org.json.version>20230227</org.json.version>
@@ -97,11 +96,11 @@
         <restassured.version>4.4.0</restassured.version>
         <resteasy.version>3.15.3.Final</resteasy.version>
         <resteasy-client.version>4.7.7.Final</resteasy-client.version>
-        <servlet.api.version>3.1.0</servlet.api.version>
+        <servlet.api.version>4.0.1</servlet.api.version>
         <slf4j.version>2.0.6</slf4j.version>
         <weld.version>3.1.4.Final</weld.version>
         <wildfly.version>26.1.2.Final</wildfly.version>
-        <wiremock.version>1.58</wiremock.version>
+        <wiremock.version>3.0.0-beta-10</wiremock.version>
         <xbean.version>4.11</xbean.version>
     </properties>
 
@@ -717,11 +716,6 @@
                 <groupId>co.unruly</groupId>
                 <artifactId>java-8-matchers</artifactId>
                 <version>${java.8.matchers.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>net.trajano.commons</groupId>
-                <artifactId>commons-testing</artifactId>
-                <version>${commons.testing.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.skyscreamer</groupId>
