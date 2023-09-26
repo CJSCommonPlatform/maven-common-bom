@@ -90,7 +90,7 @@
         <org.everit.json.schema.version>1.6.0</org.everit.json.schema.version>
         <org.json.version>20230227</org.json.version>
         <persistence-api.version>1.0.2</persistence-api.version>
-        <plexus-utils.version>3.0.22</plexus-utils.version>
+        <plexus-utils.version>3.0.24</plexus-utils.version>
         <raml-parser.version>0.8.18</raml-parser.version>
         <reflections.version>0.9.10</reflections.version>
         <restassured.version>4.4.0</restassured.version>
