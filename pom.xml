@@ -58,9 +58,10 @@
         <hibernate.version>5.4.24.Final</hibernate.version>
         <jackson.version>2.12.7</jackson.version>
         <jackson.databind.version>2.12.7.1</jackson.databind.version>
+        <jakarta.xml.bind-api.version>2.3.2</jakarta.xml.bind-api.version>
         <java.8.matchers.version>1.1</java.8.matchers.version>
         <javapoet.version>1.6.1</javapoet.version>
-        <javassist.version>3.20.0-GA</javassist.version>
+        <javassist.version>3.23.1-GA</javassist.version>
         <javax.json.version>1.0</javax.json.version>
         <javax.mail.version>1.5.0</javax.mail.version>
         <jboss-ejb3-ext-api.version>2.2.0.Final</jboss-ejb3-ext-api.version>
@@ -85,6 +86,7 @@
         <maven-plugin-testing-harness.version>3.3.0</maven-plugin-testing-harness.version>
         <metrics.version>3.1.2</metrics.version>
         <mockito.version>5.3.1</mockito.version>
+        <mvel2.version>2.4.12.Fina</mvel2.version>
         <openejb.version>8.0.13</openejb.version>
         <org.eclipse.sisu.plexus.version>0.3.2</org.eclipse.sisu.plexus.version>
         <org.everit.json.schema.version>1.6.0</org.everit.json.schema.version>
@@ -222,6 +224,17 @@
                 </exclusions>
             </dependency>
             <dependency>
+                <groupId>org.jboss.resteasy</groupId>
+                <artifactId>resteasy-servlet-initializer</artifactId>
+                <version>${resteasy-client.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <artifactId>commons-logging</artifactId>
+                        <groupId>commons-logging</groupId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
                 <groupId>com.sun.mail</groupId>
                 <artifactId>javax.mail</artifactId>
                 <version>${javax.mail.version}</version>
@@ -246,7 +259,6 @@
                 <artifactId>jackson-databind</artifactId>
                 <version>${jackson.databind.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-core</artifactId>
@@ -262,16 +274,19 @@
                 <artifactId>jackson-datatype-jdk8</artifactId>
                 <version>${jackson.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.fasterxml.jackson.module</groupId>
                 <artifactId>jackson-module-parameter-names</artifactId>
                 <version>${jackson.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.fasterxml.jackson.dataformat</groupId>
                 <artifactId>jackson-dataformat-yaml</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.dataformat</groupId>
+                <artifactId>jackson-dataformat-xml</artifactId>
                 <version>${jackson.version}</version>
             </dependency>
 
@@ -440,6 +455,11 @@
                 <version>${deltaspike.version}</version>
                 <scope>test</scope>
             </dependency>
+            <dependency>
+                <groupId>org.apache.deltaspike.cdictrl</groupId>
+                <artifactId>deltaspike-cdictrl-api</artifactId>
+                <version>${deltaspike.version}</version>
+            </dependency>
 
             <!-- Hibernate -->
             <dependency>
@@ -531,6 +551,22 @@
                 <version>${javax.json.version}</version>
             </dependency>
 
+            <!-- JBoss Drools-->
+            <dependency>
+                <groupId>org.kie</groupId>
+                <artifactId>kie-api</artifactId>
+                <version>${drools.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mvel</groupId>
+                <artifactId>mvel2</artifactId>
+                <version>${mvel2.version}l</version>
+            </dependency>
+            <dependency>
+                <groupId>org.drools</groupId>
+                <artifactId>drools-core</artifactId>
+                <version>${drools.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.drools</groupId>
                 <artifactId>drools-compiler</artifactId>
@@ -633,6 +669,12 @@
                 <groupId>io.rest-assured</groupId>
                 <artifactId>rest-assured</artifactId>
                 <version>${restassured.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jayway.restassured</groupId>
+                <artifactId>rest-assured</artifactId>
+                <version>${rest-assured.version}</version>
+                <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>com.jayway.jsonpath</groupId>
@@ -819,6 +861,11 @@
             <dependency>
                 <groupId>org.hibernate</groupId>
                 <artifactId>hibernate-entitymanager</artifactId>
+                <version>${hibernate.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-jpamodelgen</artifactId>
                 <version>${hibernate.version}</version>
             </dependency>
             <dependency>
@@ -1046,6 +1093,11 @@
                 <groupId>com.sun.xml.bind</groupId>
                 <artifactId>jaxb-impl</artifactId>
                 <version>${jaxb.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>jakarta.xml.bind</groupId>
+                <artifactId>jakarta.xml.bind-api</artifactId>
+                <version>${jakarta.xml.bind-api.version}</version>
             </dependency>
 
         </dependencies>
