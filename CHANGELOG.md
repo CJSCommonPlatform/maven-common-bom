@@ -6,6 +6,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [17.2.0-M1] - 2023-10-23
+### Changed
+- Centralise all generic library dependencies and versions into this common-bom
+
 ## [17.1.2] - 2023-07-11
 ### Changed
 - Update to JUnit 5
