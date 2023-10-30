@@ -6,7 +6,7 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
              
-## [17.2.0-M12] - 2023-10-30
+## [17.2.0-M2] - 2023-10-30
 ### Removed
 - Removed dependency on apache-drools as it's not used by any of the framework code
 
