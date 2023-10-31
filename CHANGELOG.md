@@ -6,6 +6,17 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
              
+## [17.2.0-M3] - 2023-10-31
+### Security
+- Update org.json to version 20231013 to fix **security vulnerability CVE-2023-5072**
+    Detail: https://nvd.nist.gov/vuln/detail/CVE-2023-5072
+- Update plexus-codehaus to version 3.0.24 to fix **security vulnerability CVE-2022-4244**
+    Detail: https://nvd.nist.gov/vuln/detail/CVE-2022-4244
+- Update apache-tika to version 1.28.3 to fix **security vulnerability CVE-2022-30973**
+    Detail: https://nvd.nist.gov/vuln/detail/CVE-2022-30973
+- Update google-guava to version 32.0.0-jre to fix **security vulnerability CVE-2023-2976**
+    Detail: https://nvd.nist.gov/vuln/detail/CVE-2023-2976
+
 ## [17.2.0-M2] - 2023-10-30
 ### Removed
 - Removed dependency on apache-drools as it's not used by any of the framework code
