@@ -6,7 +6,11 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
              
-## [17.2.0-M3] - 2023-10-31
+## [17.2.0] - 2023-11-03
+### Changed
+- Centralise all generic library dependencies and versions into this common-bom
+### Removed
+- Removed dependency on apache-drools as it's not used by any of the framework code
 ### Security
 - Update org.json to version 20231013 to fix **security vulnerability CVE-2023-5072**
     Detail: https://nvd.nist.gov/vuln/detail/CVE-2023-5072
@@ -16,14 +20,6 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
     Detail: https://nvd.nist.gov/vuln/detail/CVE-2022-30973
 - Update google-guava to version 32.0.0-jre to fix **security vulnerability CVE-2023-2976**
     Detail: https://nvd.nist.gov/vuln/detail/CVE-2023-2976
-
-## [17.2.0-M2] - 2023-10-30
-### Removed
-- Removed dependency on apache-drools as it's not used by any of the framework code
-
-## [17.2.0-M1] - 2023-10-23
-### Changed
-- Centralise all generic library dependencies and versions into this common-bom
 
 ## [17.1.2] - 2023-07-11
 ### Changed
