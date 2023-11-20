@@ -5,6 +5,7 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+Add undefined version property name for jaway rest-assured dependency
              
 ## [17.2.0] - 2023-11-03
 ### Changed
