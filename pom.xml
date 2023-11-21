@@ -72,7 +72,7 @@
         <johnzon.version>1.2.9</johnzon.version>
         <jokolia.client.java.version>2.0.0-M3</jokolia.client.java.version>
         <jolt.version>0.1.1</jolt.version>
-        <jsonassert.version>1.2.3</jsonassert.version>
+        <jsonassert.version>1.5.0</jsonassert.version>
         <jsonpath.version>2.7.0</jsonpath.version>
         <junit.version>5.9.3</junit.version>
         <log4j.version>2.17.2</log4j.version>
@@ -94,7 +94,8 @@
         <plexus-utils.version>3.0.24</plexus-utils.version>
         <raml-parser.version>0.8.18</raml-parser.version>
         <reflections.version>0.9.10</reflections.version>
-        <restassured.version>4.4.0</restassured.version>
+        <io.restassured.version>4.4.0</io.restassured.version>
+        <jayway.restassured.version>2.9.0</jayway.restassured.version>
         <resteasy.version>3.15.3.Final</resteasy.version>
         <resteasy-client.version>4.7.7.Final</resteasy-client.version>
         <servlet.api.version>4.0.1</servlet.api.version>
@@ -639,17 +640,17 @@
             <dependency>
                 <groupId>io.rest-assured</groupId>
                 <artifactId>json-path</artifactId>
-                <version>${restassured.version}</version>
+                <version>${io.restassured.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.rest-assured</groupId>
                 <artifactId>rest-assured</artifactId>
-                <version>${restassured.version}</version>
+                <version>${io.restassured.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jayway.restassured</groupId>
                 <artifactId>rest-assured</artifactId>
-                <version>${rest-assured.version}</version>
+                <version>${jayway.restassured.version}</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
