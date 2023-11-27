@@ -5,6 +5,8 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [17.2.1] - 2023-11-27
 ### Added
 - Added undefined version property name for jaway rest-assured dependency
 - Added dependency on jackson-datatype-joda
