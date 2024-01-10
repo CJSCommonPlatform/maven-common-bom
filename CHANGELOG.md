@@ -4,6 +4,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## [8.0.5] - 2024-01-10
+### Changed
+- Update maven-parent-pom to 8.0.0
+
 ## [8.0.4] - 2022-02-16
 ### Changed
 - updated log4j2 to 2.17.0
