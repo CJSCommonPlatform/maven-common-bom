@@ -73,7 +73,7 @@
         <jokolia.client.java.version>2.0.0-M3</jokolia.client.java.version>
         <jolt.version>0.1.1</jolt.version>
         <jsonassert.version>1.5.0</jsonassert.version>
-        <jsonpath.version>2.7.0</jsonpath.version>
+        <jsonpath.version>2.9.0</jsonpath.version>
         <junit.version>5.9.3</junit.version>
         <log4j.version>2.17.2</log4j.version>
         <maven-aether-provider.version>3.3.9</maven-aether-provider.version>
