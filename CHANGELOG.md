@@ -6,6 +6,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [17.2.2] - 2024-06-12
+### Added
+- Add maven-sonar-plugin to pluginManagement (through maven-parent-pom)
+
 ## [17.2.1] - 2023-11-27
 ### Added
 - Added undefined version property name for jaway rest-assured dependency
