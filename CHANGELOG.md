@@ -6,6 +6,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [17.5.0] - 2024-06-20
+- Update com.jayway.json-path to version 2.9.0 to fix **security vulnerability CWE-787**
+  Detail: https://cwe.mitre.org/data/definitions/787.html
+
 ## [17.2.2] - 2024-06-12
 ### Added
 - Add maven-sonar-plugin to pluginManagement (through maven-parent-pom)
