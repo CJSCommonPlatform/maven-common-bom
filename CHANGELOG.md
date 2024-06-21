@@ -6,7 +6,12 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [17.5.1] - 2024-06-21
+### Added
+- Add dependency for org.ow2.asm version 9.3
+
 ## [17.5.0] - 2024-06-20
+### Security
 - Update com.jayway.json-path to version 2.9.0 to fix **security vulnerability CWE-787**
   Detail: https://cwe.mitre.org/data/definitions/787.html
 
