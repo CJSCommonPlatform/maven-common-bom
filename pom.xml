@@ -90,6 +90,7 @@
         <org.eclipse.sisu.plexus.version>0.3.2</org.eclipse.sisu.plexus.version>
         <org.everit.json.schema.version>1.6.0</org.everit.json.schema.version>
         <org.json.version>20231013</org.json.version>
+        <org.ow2.asm.version>9.3</org.ow2.asm.version>
         <persistence-api.version>1.0.2</persistence-api.version>
         <plexus-utils.version>3.0.24</plexus-utils.version>
         <raml-parser.version>0.8.18</raml-parser.version>
@@ -688,6 +689,11 @@
                         <artifactId>hamcrest</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.ow2.asm</groupId>
+                <artifactId>asm</artifactId>
+                <version>${org.ow2.asm.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.awaitility</groupId>
