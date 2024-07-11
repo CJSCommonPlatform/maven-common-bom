@@ -90,6 +90,7 @@
         <org.eclipse.sisu.plexus.version>0.3.2</org.eclipse.sisu.plexus.version>
         <org.everit.json.schema.version>1.6.0</org.everit.json.schema.version>
         <org.json.version>20231013</org.json.version>
+        <org.owasp.encoder.version>1.2.3</org.owasp.encoder.version>
         <persistence-api.version>1.0.2</persistence-api.version>
         <plexus-utils.version>3.0.24</plexus-utils.version>
         <raml-parser.version>0.8.18</raml-parser.version>
@@ -299,6 +300,13 @@
                 <groupId>com.fasterxml.jackson.dataformat</groupId>
                 <artifactId>jackson-dataformat-csv</artifactId>
                 <version>${jackson.version}</version>
+            </dependency>
+
+            <!-- cross site scripting verification -->
+            <dependency>
+                <groupId>org.owasp.encoder</groupId>
+                <artifactId>encoder</artifactId>
+                <version>${org.owasp.encoder.version}</version>
             </dependency>
 
             <dependency>
@@ -710,7 +718,11 @@
                 <artifactId>wiremock</artifactId>
                 <version>${wiremock.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>org.jboss.weld</groupId>
+                <artifactId>weld-junit5</artifactId>
+                <version>${weld-junit5.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-api</artifactId>
@@ -726,13 +738,6 @@
                 <artifactId>junit-jupiter-params</artifactId>
                 <version>${junit.version}</version>
             </dependency>
-
-            <dependency>
-                <groupId>org.jboss.weld</groupId>
-                <artifactId>weld-junit5</artifactId>
-                <version>${weld-junit5.version}</version>
-            </dependency>
-
             <dependency>
                 <groupId>com.btmatthews.hamcrest</groupId>
                 <artifactId>hamcrest-matchers</artifactId>
@@ -778,7 +783,6 @@
                 <artifactId>h2</artifactId>
                 <version>${h2.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>org.apache.tomee</groupId>
                 <artifactId>openejb-cxf-rs</artifactId>
