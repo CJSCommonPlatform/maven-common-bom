@@ -6,6 +6,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [17.5.2] - 2024-07-16
+### Added
+- Add junit-jupiter-engine dependency
+
 ## [17.5.1] - 2024-06-21
 ### Added
 - Add dependency for org.ow2.asm version 9.3
