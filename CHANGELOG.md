@@ -34,17 +34,6 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 ### Added
 - Add maven-sonar-plugin to pluginManagement (through maven-parent-pom)
 
-## [17.6.1] - 2024-07-11
-### Added
-- Add dependency for weld-junit5 1.2.2.Final
-- Add dependency for org.owasp.encoder 1.2.3
-
-## [17.6.0] - 2024-06-20
-### Changed
-- Bumped version to match master branches of framework post java 17 code
-### Added
-- Add dependency for weld-junit5 1.2.2.Final
-
 ## [17.2.1] - 2023-11-27
 ### Added
 - Added undefined version property name for jaway rest-assured dependency
