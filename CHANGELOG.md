@@ -6,16 +6,33 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [17.5.2] - 2024-07-16
+### Added
+- Add junit-jupiter-engine dependency
+
 ## [17.6.1] - 2024-07-11
 ### Added
 - Add dependency for weld-junit5 1.2.2.Final
 - Add dependency for org.owasp.encoder 1.2.3
+
+## [17.5.1] - 2024-06-21
+### Added
+- Add dependency for org.ow2.asm version 9.3
 
 ## [17.6.0] - 2024-06-20
 ### Changed
 - Bumped version to match master branches of framework post java 17 code
 ### Added
 - Add dependency for weld-junit5 1.2.2.Final
+
+## [17.5.0] - 2024-06-20
+### Security
+- Update com.jayway.json-path to version 2.9.0 to fix **security vulnerability CWE-787**
+  Detail: https://cwe.mitre.org/data/definitions/787.html
+
+## [17.2.2] - 2024-06-12
+### Added
+- Add maven-sonar-plugin to pluginManagement (through maven-parent-pom)
 
 ## [17.2.1] - 2023-11-27
 ### Added

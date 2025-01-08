@@ -73,7 +73,7 @@
         <jokolia.client.java.version>2.0.0-M3</jokolia.client.java.version>
         <jolt.version>0.1.1</jolt.version>
         <jsonassert.version>1.5.0</jsonassert.version>
-        <jsonpath.version>2.7.0</jsonpath.version>
+        <jsonpath.version>2.9.0</jsonpath.version>
         <junit.version>5.9.3</junit.version>
         <log4j.version>2.17.2</log4j.version>
         <maven-aether-provider.version>3.3.9</maven-aether-provider.version>
@@ -90,6 +90,7 @@
         <org.eclipse.sisu.plexus.version>0.3.2</org.eclipse.sisu.plexus.version>
         <org.everit.json.schema.version>1.6.0</org.everit.json.schema.version>
         <org.json.version>20231013</org.json.version>
+        <org.ow2.asm.version>9.3</org.ow2.asm.version>
         <org.owasp.encoder.version>1.2.3</org.owasp.encoder.version>
         <persistence-api.version>1.0.2</persistence-api.version>
         <plexus-utils.version>3.0.24</plexus-utils.version>
@@ -699,6 +700,11 @@
                 </exclusions>
             </dependency>
             <dependency>
+                <groupId>org.ow2.asm</groupId>
+                <artifactId>asm</artifactId>
+                <version>${org.ow2.asm.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.awaitility</groupId>
                 <artifactId>awaitility</artifactId>
                 <version>${awaitility.version}</version>
@@ -731,6 +737,11 @@
             <dependency>
                 <groupId>org.junit.vintage</groupId>
                 <artifactId>junit-vintage-engine</artifactId>
+                <version>${junit.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-engine</artifactId>
                 <version>${junit.version}</version>
             </dependency>
             <dependency>
