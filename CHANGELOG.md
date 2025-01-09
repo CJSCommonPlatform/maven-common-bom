@@ -5,10 +5,13 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Changed
+- Update commons.io to 2.18.0 to fix **security vulnerability CVE-2024-47554**
+  Detail: https://nvd.nist.gov/vuln/detail/CVE-2024-47554 and https://cwe.mitre.org/data/definitions/400.html
 
 ## [17.101.0] - 2025-01-08
 ### Changed
-- Update maven-parent-pom to 17.101.0
+- Update maven-parent-pom to 17.101.0 
 - Update postgresql.driver.version to 42.3.2 (through maven-parent-pom)
 
 ## [17.5.2] - 2024-07-16
