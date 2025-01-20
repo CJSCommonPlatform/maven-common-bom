@@ -4,6 +4,8 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [8.0.6] - 2025-01-20
 ### Changed
 - Updated postgresql.driver.version to 42.3.2 through maven-parent-pom.
 - Updated maven-parent-pom to 8.0.1.
