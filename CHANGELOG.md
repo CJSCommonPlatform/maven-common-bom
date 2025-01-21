@@ -4,6 +4,8 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [8.0.7] - 2025-01-21
 ### Changed
 - Updated guava.version to 30.0-jre
 
