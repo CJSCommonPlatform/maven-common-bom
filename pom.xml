@@ -6,11 +6,11 @@
     <parent>
         <groupId>uk.gov.justice</groupId>
         <artifactId>maven-parent-pom</artifactId>
-        <version>17.1.0</version>
+        <version>17.101.0</version>
     </parent>
 
     <artifactId>maven-common-bom</artifactId>
-    <version>17.6.2-SNAPSHOT</version>
+    <version>17.101.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>Bill of materials defining standard versions for dependencies of the Microservices
         framework
@@ -38,7 +38,7 @@
         <commons.beanutils.version>1.9.4</commons.beanutils.version>
         <commons.collections.version>3.2.2</commons.collections.version>
         <commons.cli.version>1.2</commons.cli.version>
-        <commons.io.version>2.7</commons.io.version>
+        <commons.io.version>2.18.0</commons.io.version>
         <commons.lang3.version>3.12.0</commons.lang3.version>
         <commons.logging.version>1.2</commons.logging.version>
         <commons.validator.version>1.5.1</commons.validator.version>
