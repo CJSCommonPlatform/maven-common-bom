@@ -6,6 +6,10 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 
 ## [Unreleased]
 
+## [17.102.0] - 2025-02-26
+### Added
+- Add dependency for commons-codec 1.17.2
+
 ## [17.101.1] - 2025-01-09
 ### Changed
 - Update commons.io to 2.18.0 to fix **security vulnerability CVE-2024-47554**
