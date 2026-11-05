@@ -5,6 +5,14 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Changed
+- Hibernate ORM (`hibernate-core`, `hibernate-envers`, `hibernate-jpamodelgen`) 6.6.1.Final → 7.3.2.Final, the
+  version WildFly 40.0.1 ships. Contexts use Hibernate `provided`, so they were compiled and tested on 6.6.1 but ran
+  on 7.3.2.
+- `hibernate-processor` is now managed too. Hibernate 7 renamed `hibernate-jpamodelgen` to `hibernate-processor`, and
+  7.3.2 publishes the old name only as a relocation, so consumers should move to the new name.
+- `hibernate-scan-jandex` is now managed. Hibernate 7 moved entity scanning into it, so without it a persistence
+  unit's `<jar-file>` finds no entities.
 
 ## [25.104.3] - 2026-10-27
 ### Security

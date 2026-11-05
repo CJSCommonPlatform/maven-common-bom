@@ -95,8 +95,8 @@
         <log4j.version>2.25.5</log4j.version>
         <slf4j.version>2.0.17</slf4j.version>
 
-        <!-- Hibernate ORM -->
-        <hibernate.version>6.6.1.Final</hibernate.version>
+        <!-- Hibernate ORM: must match the version WildFly ships, as contexts use it provided -->
+        <hibernate.version>7.3.2.Final</hibernate.version>
 
         <!-- Weld -->
         <weld-junit5.version>4.0.2.Final</weld-junit5.version>
@@ -720,7 +720,7 @@
                 <version>${slf4j.version}</version>
             </dependency>
 
-            <!-- ===== Hibernate ORM 6.x (matches WildFly 34 / Jakarta EE 10) ===== -->
+            <!-- ===== Hibernate ORM 7.x (matches WildFly 40) ===== -->
             <dependency>
                 <groupId>org.hibernate.orm</groupId>
                 <artifactId>hibernate-core</artifactId>
@@ -731,6 +731,18 @@
                 <artifactId>hibernate-envers</artifactId>
                 <version>${hibernate.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.hibernate.orm</groupId>
+                <artifactId>hibernate-processor</artifactId>
+                <version>${hibernate.version}</version>
+            </dependency>
+            <!-- Hibernate 7 scans jar-file entries for entities only when this is on the classpath -->
+            <dependency>
+                <groupId>org.hibernate.orm</groupId>
+                <artifactId>hibernate-scan-jandex</artifactId>
+                <version>${hibernate.version}</version>
+            </dependency>
+            <!-- Renamed hibernate-processor in Hibernate 7; kept managed for existing consumers -->
             <dependency>
                 <groupId>org.hibernate.orm</groupId>
                 <artifactId>hibernate-jpamodelgen</artifactId>
