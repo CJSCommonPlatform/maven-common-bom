@@ -5,6 +5,8 @@ on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [25.104.4] - 2026-11-05
 ### Changed
 - Hibernate ORM (`hibernate-core`, `hibernate-envers`, `hibernate-jpamodelgen`) 6.6.1.Final → 7.3.2.Final, the
   version WildFly 40.0.1 ships. Contexts use Hibernate `provided`, so they were compiled and tested on 6.6.1 but ran
